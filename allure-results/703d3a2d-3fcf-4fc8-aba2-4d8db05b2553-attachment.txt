@@ -1,0 +1,8 @@
+{
+  "script": "<script> [11 bytes]",
+  "args": [
+    {
+      "finder": "eyJmaW5kZXJUeXBlIjoiQnlWYWx1ZUtleSIsImtleVZhbHVlU3RyaW5nIjoidXNlcm5hbWVUZXh0ZmllbGQiLCJrZXlWYWx1ZVR5cGUiOiJTdHJpbmcifQ"
+    }
+  ]
+}

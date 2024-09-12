@@ -16,8 +16,12 @@
     "@wdio/cucumber-framework": "^9.0.8",
     "@wdio/local-runner": "^9.0.9",
     "@wdio/spec-reporter": "^9.0.8",
-    "appium": "^2.11.3",
+    "appium-flutter-finder": "^0.2.0",
     "appium-uiautomator2-driver": "^3.7.9",
     "tsx": "^4.19.0"
+  },
+  "dependencies": {
+    "appium": "^2.11.3",
+    "appium-flutter-driver": "^2.9.2"
   }
 }

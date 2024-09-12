@@ -12,7 +12,7 @@
             "@wdio/globals/types",
             "expect-webdriverio",
             "@wdio/cucumber-framework",
-            "@wdio/appium-service"
+            "@wdio/appium-service",
         ],
         "skipLibCheck": true,
         "noEmit": true,
@@ -27,5 +27,5 @@
     "include": [
         "test",
         "wdio.conf.ts"
-    ]
+, "helper"    ]
 }

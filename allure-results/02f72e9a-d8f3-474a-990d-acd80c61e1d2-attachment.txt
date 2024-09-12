@@ -1,0 +1,8 @@
+{
+  "script": "<script> [20 bytes]",
+  "args": [
+    {
+      "key": "eyJmaW5kZXJUeXBlIjoiQnlWYWx1ZUtleSIsImtleVZhbHVlU3RyaW5nIjoidXNlcm5hbWVUZXh0ZmllbGQiLCJrZXlWYWx1ZVR5cGUiOiJTdHJpbmcifQ"
+    }
+  ]
+}

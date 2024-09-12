@@ -26,36 +26,11 @@ export const config: Options.Testrunner = {
         'appium:deviceName': 'Poco X3 Pro',
         'appium:platformVersion': '12',
         'appium:automationName': 'UiAutomator2',
-        // 'appium:appPackage': 'id.superapp.courier.stg',
-        // 'appium:appActivity': 'id.superapp.courier.MainActivity',
-        'appium:appPackage': 'com.loginmodule.learning',
-        'appium:appActivity': 'com.loginmodule.learning.activities.LoginActivity',
+        'appium:appPackage': 'id.superapp.courier.stg',
+        'appium:appActivity': 'id.superapp.courier.MainActivity',
         'appium:autoGrantPermissions': true,
         'appium:noReset': false
       }],
-
-    // capabilities: {
-    //     appium: {
-    //         path: '/wd/hub/',
-    //         port: 4723,
-
-    // capabilities: {
-    //     platformName: 'Android',
-    //     'appium:deviceName': 'Poco X3 Pro',
-    //     'appium:platformVersion': '12',
-    //     'appium:automationName': 'UiAutomator2',
-    //     // 'appium:appPackage': 'id.superapp.courier.stg',
-    //     // 'appium:appActivity': 'id.superapp.courier.MainActivity',
-    //         'appium:appPackage': 'com.loginmodule.learning',
-    //     'appium:appActivity': 'com.loginmodule.learning.activities.LoginActivity',
-    //     'appium:autoGrantPermissions': true,
-    //     'appium:noReset': false
-
-    //     }
-//     }
-
-// },
-      
     
     maxInstances: 1,
 
@@ -67,7 +42,7 @@ export const config: Options.Testrunner = {
 
     connectionRetryTimeout: 120000,
 
-    connectionRetryCount: 3,
+    connectionRetryCount: 1,
 
     framework: 'cucumber',
     
