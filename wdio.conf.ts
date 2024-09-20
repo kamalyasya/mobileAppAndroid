@@ -49,7 +49,7 @@ export const config: Options.Testrunner = {
     reporters: ['spec',['allure', {outputDir: 'allure-results'}]],
 
     cucumberOpts: {
-        require: ['test/step-definitions/**/*.ts'],
+        require: ['test/steps/**/*.ts'],
         backtrace: false,
         requireModule: [],
         dryRun: false,

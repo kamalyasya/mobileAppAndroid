@@ -1,0 +1,3 @@
+npx wdio run wdio.conf.ts
+
+npx wdio run wdio.conf.ts --spec login.feature
