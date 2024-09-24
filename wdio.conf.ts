@@ -12,7 +12,12 @@ export const config: Options.Testrunner = {
     
     specs: ['test/features/**/*.feature'],
 
-    services: ['appium'],
+    services: [
+        ['appium', {
+            command: 'appium'
+        }]
+    ],
+    
 
     appium: {
         args: {
@@ -23,11 +28,11 @@ export const config: Options.Testrunner = {
 
     capabilities: [{
         platformName: 'Android',
-        'appium:deviceName': 'Poco X3 Pro',
-        'appium:platformVersion': '12',
+        'appium:deviceName': 'OPPO A9 2020',
+        'appium:platformVersion': '11',
         'appium:automationName': 'UiAutomator2',
-        'appium:appPackage': 'id.superapp.courier.stg',
-        'appium:appActivity': 'id.superapp.courier.MainActivity',
+        'appium:appPackage': 'com.superagent.agent',
+        'appium:appActivity': 'com.superagent.agent.MainActivity',
         'appium:autoGrantPermissions': true,
         'appium:noReset': false
       }],
@@ -49,6 +54,7 @@ export const config: Options.Testrunner = {
     reporters: ['spec',['allure', {outputDir: 'allure-results'}]],
 
     cucumberOpts: {
+        
         require: ['test/steps/**/*.ts'],
         backtrace: false,
         requireModule: [],

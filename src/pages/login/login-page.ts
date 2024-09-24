@@ -3,27 +3,31 @@ import { $ } from '@wdio/globals'
 export default new class loginPage {
 
     get masukSekarang() {
-         return $('~Masuk Sekarang')
-    }
-
-    get username() {
-        return $('//android.widget.EditText[1]')
-    }
-
-    get password() {
-        return $('//android.widget.EditText[2]')
-    }
-
-    get login() {
-        return $('~Login')
+         return $('Akun')
     }
 
     get phoneNumber() {
-        return $('//android.widget.EditText')
+        return $('android.widget.EditText')
     }
 
-    get lanjut() {
-        return $('~Lanjut')
+    get masuk() {
+        return $('//android.widget.Button[@content-desc="Masuk"]')
+    }
+
+    get kodePin() {
+        return $('android.widget.EditText')
+    }
+
+    get banner1() {
+        return $('//android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View')
+    }
+
+    get banner2() {
+        return $('//android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View')
+    }
+
+    get banner3() {
+        return $('Close')
     }
 
 }
